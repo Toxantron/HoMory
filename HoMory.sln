@@ -5,11 +5,11 @@ VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartProject", "src\StartProject\StartProject.csproj", "{8F6449AB-4560-40B1-835E-308F1534734C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApplication", "src\MyApplication\MyApplication.csproj", "{DF4730D4-5DB2-46A5-9F2B-C7B22E61268B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoMory", "src\HoMory\HoMory.csproj", "{DF4730D4-5DB2-46A5-9F2B-C7B22E61268B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{8F6C372A-B1CF-4A20-A5F1-1BC4673A39CC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyApplication.Resources.MyResource", "src\MyApplication.Resources.MyResource\MyApplication.Resources.MyResource.csproj", "{DCE3B1A1-75B0-42EB-AFEA-531F23825EE5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoMory.Resources.Building", "src\HoMory.Resources.Building\HoMory.Resources.Building.csproj", "{DCE3B1A1-75B0-42EB-AFEA-531F23825EE5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

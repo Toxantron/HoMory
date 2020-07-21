@@ -183,13 +183,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MyApplication.Resources.MyResource\MyApplication.Resources.MyResource.csproj">
+    <ProjectReference Include="..\HoMory.Resources.Building\HoMory.Resources.Building.csproj">
       <Project>{dce3b1a1-75b0-42eb-afea-531f23825ee5}</Project>
-      <Name>MyApplication.Resources.MyResource</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\MyApplication\MyApplication.csproj">
-      <Project>{df4730d4-5db2-46a5-9f2b-c7b22e61268b}</Project>
-      <Name>MyApplication</Name>
+      <Name>HoMory.Resources.Building</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
