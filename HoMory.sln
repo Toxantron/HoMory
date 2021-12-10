@@ -3,13 +3,21 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartProject", "src\StartProject\StartProject.csproj", "{8F6449AB-4560-40B1-835E-308F1534734C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StartProject", "src\StartProject\StartProject.csproj", "{8F6449AB-4560-40B1-835E-308F1534734C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoMory", "src\HoMory\HoMory.csproj", "{DF4730D4-5DB2-46A5-9F2B-C7B22E61268B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{1A406070-54A2-4468-92D1-5F7DB32F4560}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.build.props = Directory.build.props
+		Directory.Build.targets = Directory.Build.targets
+		NuGet.Config = NuGet.Config
+		README.md = README.md
+	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{8F6C372A-B1CF-4A20-A5F1-1BC4673A39CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HoMory", "src\HoMory\HoMory.csproj", "{57572BD5-043B-476C-B4DF-A60B6B358EB0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoMory.Resources.Building", "src\HoMory.Resources.Building\HoMory.Resources.Building.csproj", "{DCE3B1A1-75B0-42EB-AFEA-531F23825EE5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HoMory.Resources.Building", "src\HoMory.Resources.Building\HoMory.Resources.Building.csproj", "{255DC770-C7E8-47D4-96CC-915FD350B9ED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Resources", "Resources", "{33AF9597-4940-448A-8203-8410F0E9FE65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,20 +29,20 @@ Global
 		{8F6449AB-4560-40B1-835E-308F1534734C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F6449AB-4560-40B1-835E-308F1534734C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F6449AB-4560-40B1-835E-308F1534734C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DF4730D4-5DB2-46A5-9F2B-C7B22E61268B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DF4730D4-5DB2-46A5-9F2B-C7B22E61268B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DF4730D4-5DB2-46A5-9F2B-C7B22E61268B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DF4730D4-5DB2-46A5-9F2B-C7B22E61268B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DCE3B1A1-75B0-42EB-AFEA-531F23825EE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DCE3B1A1-75B0-42EB-AFEA-531F23825EE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DCE3B1A1-75B0-42EB-AFEA-531F23825EE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DCE3B1A1-75B0-42EB-AFEA-531F23825EE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57572BD5-043B-476C-B4DF-A60B6B358EB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57572BD5-043B-476C-B4DF-A60B6B358EB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57572BD5-043B-476C-B4DF-A60B6B358EB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57572BD5-043B-476C-B4DF-A60B6B358EB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{255DC770-C7E8-47D4-96CC-915FD350B9ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{255DC770-C7E8-47D4-96CC-915FD350B9ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{255DC770-C7E8-47D4-96CC-915FD350B9ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{255DC770-C7E8-47D4-96CC-915FD350B9ED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{DCE3B1A1-75B0-42EB-AFEA-531F23825EE5} = {8F6C372A-B1CF-4A20-A5F1-1BC4673A39CC}
+		{255DC770-C7E8-47D4-96CC-915FD350B9ED} = {33AF9597-4940-448A-8203-8410F0E9FE65}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3A74EE28-4BA6-4A6D-81BC-1D8866F13620}
